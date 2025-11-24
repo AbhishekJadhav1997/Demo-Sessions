@@ -18,4 +18,5 @@ test('TestAssertions',async({page})=>{
   //3)expect(locator).toBeVisible() — Element is visible
   const logo=await page.locator('.header-logo')
   await expect(logo).toBeVisible()
+  // this is demo session for git hub
 })
